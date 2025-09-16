@@ -8,7 +8,7 @@ me = {
     True: False
 }
 
-print(me.get('name'))
+print(me.get('first_name'))
 me['position'] = 'Developer-middle'
 del me[True]
 print(me)
