@@ -9,7 +9,7 @@ def show_and_restore_desktop():
     system = platform.system()
     if system == "Windows":
         pyautogui.hotkey('win', 'd')
-    elif system == "Darwin":  #
+    elif system == "Darwin":  
         pyautogui.hotkey('command', 'option', 'd')
     elif system == "Linux":
         pyautogui.hotkey('win', 'd')
