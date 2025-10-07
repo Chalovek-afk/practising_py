@@ -1,3 +1,5 @@
+pandas
+python-qt5
 pyautogui
 EasyProcess==1.1
 entrypoint2==1.1
