@@ -1,5 +1,4 @@
 import sys
-from curses.ascii import isdigit
 
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QHBoxLayout,
