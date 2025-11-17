@@ -20,7 +20,6 @@ print(range_slice)
 reversed_vector = vector[::-1]
 print("3. Перевернутый массив:")
 print(reversed_vector)
-print()
 
 vector_copy = vector.copy()
 vector_copy[3] = 100
@@ -43,7 +42,6 @@ min_index = np.argmin(vector)
 print("6. Argmax и argmin:")
 print(f"Индекс максимального элемента (argmax): {max_index}, значение: {vector[max_index]}")
 print(f"Индекс минимального элемента (argmin): {min_index}, значение: {vector[min_index]}")
-print()
 
 appended_vector = np.append(vector, [99, 88, 77])
 print("7. Метод append:")
